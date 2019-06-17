@@ -26,5 +26,7 @@ public class CircleCalc {
 		// Results
 		System.out.print("The area of the Circle with radius " + radius);
 		System.out.print(" = " + area);
+		
 	}
+	
 }
