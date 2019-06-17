@@ -1,9 +1,10 @@
 
 import java.util.Scanner;
 
-public class CircleCalc {
-
-	public static void main(String[] args) {
+public class CircleCalc 
+{
+	public static void main(String[] args) 
+	{
 		// TODO Auto-generated method stub
 		
 		// User input name 
@@ -27,6 +28,5 @@ public class CircleCalc {
 		System.out.print("The area of the Circle with radius " + radius);
 		System.out.print(" = " + area);
 		
-	}
-	
+	}	
 }
