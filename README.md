@@ -1,2 +1,2 @@
 # java-101
-Covering the fundamentals of programming with Java - UH CompuCamp 2019
+Code snippets for Arduino projects with Java - UH CompuCamp 2019
