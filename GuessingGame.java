@@ -12,12 +12,15 @@ public class GuessingGame {
 		int theNumber = rand.nextInt(1000) + 1; // store random number as 'theNumber'
 		boolean winner = false;
 			
+		int counter = 0;
 		
 		while (winner == false) {// keeps looping until correct guess 
 			
 			System.out.print("Enter your guess (0 - 1000): "); // ask user for guess
 			int guess = input.nextInt(); // store user input as 'guess'
 			input.nextLine(); // clearing buffer
+			counter +=1;
+			
 			
 			if (guess > theNumber)
 				System.out.println("Too high");
@@ -26,7 +29,8 @@ public class GuessingGame {
 				System.out.println("Too low");
 				
 			if (guess == theNumber) {
-				System.out.println("WE HAVE A WINNER!!!\n");
+				System.out.print("WE HAVE A WINNER!!!\n");
+				System.out.print("It took you: " + counter + " tries.");
 				winner = true; 
 			}
 				
